@@ -12,7 +12,7 @@
  "faith": 1,
 		"cityStrength": 2.5,
 		"cost": 0,
-		"uniques": ["Indicates the capital city", "Destroyed when the city is captured", "[+1 Food, +2 Production] per [3] population [in all cities]"]
+		"uniques": ["Indicates the capital city", "Destroyed when the city is captured"]
 	},
 	{
 		"name": "Bio Pools",
@@ -23,6 +23,6 @@
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Destroyed when the city is captured", [+1 Food, +1 Production] per [2] population [in capital]"]
 	}
 ]
