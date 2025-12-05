@@ -2,6 +2,7 @@
 	{
 		"name": "Crashed Hive Ship",
  "replaces": "Palace",
+ "uniqueTo": "The Swarm",
 		"isNationalWonder": true,
  "food": 3,
 		"production": 3,
@@ -16,6 +17,7 @@
 	{
 		"name": "Bio Pools",
  "replaces": "Monument",
+ "uniqueTo": "The Swarm",
  "food": 2,
 		"culture": 2,
 		"cost": 40,
