@@ -1,25 +1,26 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
+		"name": "Crashed Hive Ship",
+ "replaces": "Palace",
 		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+ "food": 3,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+ "faith": 1,
+		"cityStrength": 2.5,
+		"cost": 0,
+		"uniques": ["Indicates the capital city", "Destroyed when the city is captured", "[+1 Food, +2 Production] per [3] population [in all cities]"]
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
+		"name": "Bio Pools",
+ "replaces": "Monument",
+ "food": 2,
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
 	}
 ]
